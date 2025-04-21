@@ -1,0 +1,77 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.7);  
+  border-bottom: 2px solid #00ff00; 
+  color: #00ff00; 
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar a {
+  color: #00ff00;  
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #000000; 
+  background-color: #00ff00;  
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+body {
+  background: linear-gradient(135deg, #000000, #001a00, #003300, #004d00);
+  background-size: 400% 400%;
+  animation: bgGradient 15s ease infinite;
+  color: #00ff00;
+  min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.coding-intro {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 50px;
+  font-weight: 100;
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00;
+}
+
+.intro-p {
+  font-family: "Rubik Glitch", system-ui;
+  font-size: 30px;
+  font-weight: normal;
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+.floating-img {
+  animation: float 3s ease-in-out infinite;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00ff00;
+  border: 2px solid #00ff00;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+@keyframes bgGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

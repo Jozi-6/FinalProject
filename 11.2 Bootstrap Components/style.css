@@ -1,0 +1,22 @@
+body {
+    background-color: #2b6fb3; 
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      background-color: plum; 
+    }
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      background-color: greenyellow; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    body {
+      background-color: #67beac; 
+    }
+  }
+  
